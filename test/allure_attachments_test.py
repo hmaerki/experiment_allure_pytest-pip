@@ -5,7 +5,7 @@ import allure
 from allure import attachment_type
 
 
-def test_attach():
+def test_attach_Muh():
     allure.attach.file(os.path.join("resources", "allure-logo.png"), name="PNG example",
                        attachment_type=attachment_type.PNG)
 
